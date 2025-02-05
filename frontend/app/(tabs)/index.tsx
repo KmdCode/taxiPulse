@@ -3,7 +3,7 @@ import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 import { Card } from '@ant-design/react-native';
 
 const driver = {
-  name: 'John Doe',
+  name: 'Karabo Modise',
   image: 'https://picsum.photos/id/64/200/300',
   taxiNumber: 'DEF-456',
   queuePosition: 1,
@@ -11,15 +11,15 @@ const driver = {
 
 const queueList = [
   driver,
-  { id: '1', name: 'Alice Smith', image: 'https://picsum.photos/id/239/200/300', taxiNumber: 'ABC-123' },
-  { id: '2', name: 'Bob Johnson', image: 'https://picsum.photos/id/239/200/300', taxiNumber: 'XYZ-789' },
-  { id: '3', name: 'Charlie Brown', image:'https://picsum.photos/id/236/200/300', taxiNumber: 'LMN-456' },
-  { id: '4', name: 'Charlie Brown', image:'https://picsum.photos/id/220/200/300', taxiNumber: 'LMN-456' },
-  { id: '5', name: 'Charlie Brown', image:'https://picsum.photos/id/221/200/300', taxiNumber: 'LMN-456' },
-  { id: '6', name: 'Charlie Brown', image: 'https://picsum.photos/id/222/200/300', taxiNumber: 'LMN-456' },
-  { id: '7', name: 'Charlie Brown', image: 'https://picsum.photos/id/223/200/300', taxiNumber: 'LMN-456' },
-  { id: '8', name: 'Charlie Brown', image: 'https://picsum.photos/id/235/200/300', taxiNumber: 'LMN-456' },
-  { id: '9', name: 'Charlie Brown', image: 'https://picsum.photos/id/225/200/300', taxiNumber: 'LMN-456' },
+  { id: '1', name: 'Alice Smith', image: 'https://picsum.photos/id/239/200/300', taxiNumber: 'ABC-123-GP' },
+  { id: '2', name: 'John Stones', image: 'https://picsum.photos/id/239/200/300', taxiNumber: 'XYZ-789-GP' },
+  { id: '3', name: 'Jack Grealish', image:'https://picsum.photos/id/236/200/300', taxiNumber: 'LMN-456-GP' },
+  { id: '4', name: 'Ruben Dias', image:'https://picsum.photos/id/220/200/300', taxiNumber: 'HBB-367-GP' },
+  { id: '5', name: 'Manuel Akanji', image:'https://picsum.photos/id/221/200/300', taxiNumber: 'GHY-778-GP' },
+  { id: '6', name: 'Rico Lewis', image: 'https://picsum.photos/id/222/200/300', taxiNumber: 'MNY-267-GP' },
+  { id: '7', name: 'Rodri Hernandez', image: 'https://picsum.photos/id/223/200/300', taxiNumber: 'MBX-312-GP' },
+  { id: '8', name: 'Bernardo Silva', image: 'https://picsum.photos/id/235/200/300', taxiNumber: 'WYP-677-GP' },
+  { id: '9', name: 'Oscar Bobb', image: 'https://picsum.photos/id/225/200/300', taxiNumber: 'THS-339-GP' },
 ];
 
 const HomeScreen = () => {
