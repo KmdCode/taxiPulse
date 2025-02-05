@@ -35,7 +35,7 @@ const HomeScreen = () => {
       </View>
 
       {/* Driver Queue Position */}
-      <Text style={styles.taxiRoute}>Route: Ga-Rankuwa To Pretoria Central</Text>
+      <Text style={styles.taxiRoute}>Route: Garankuwa To Town</Text>
 
       {/*<Text style={styles.queuePosition}>You are currently number {driver.queuePosition} in line</Text> */}
       <Text style={styles.taxiRoute}>Next Driver:</Text>
@@ -61,7 +61,7 @@ const HomeScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  taxiRoute:{fontSize: 19, fontWeight: 'bold', marginBottom:10},
+  taxiRoute:{fontSize: 22, fontWeight: 'bold', marginBottom: 10},
   container: { flex: 1, padding: 20, backgroundColor: '#f5f5f5' },
   header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 },
   appName: { fontSize: 24, fontWeight: 'bold' },
