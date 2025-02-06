@@ -35,10 +35,19 @@ const HomeScreen = () => {
       </View>
 
       {/* Driver Queue Position */}
-      <Text style={styles.taxiRoute}>Route: Garankuwa To Town</Text>
+      <View style={styles.routeContainer}>
+        <Text style={styles.routeText}> Garankuwa To Town, via Marabastad</Text>
+      </View>
+
+
+
+      <View style={styles.burnerContainer}>
+        <Image source={{ uri: 'https://picsum.photos/400/150' }} style={styles.burnerImage} />
+        <Text style={styles.burnerText}>Welcome to Taxi Pulse! Stay updated with live queue positions.</Text>
+      </View>
 
       {/*<Text style={styles.queuePosition}>You are currently number {driver.queuePosition} in line</Text> */}
-      <Text style={styles.taxiRoute}>Next Driver:</Text>
+      <Text style={styles.taxiRoute}>Next Driver</Text>
       {/* Queue List */}
       <FlatList
         data={queueList}
@@ -74,6 +83,41 @@ const styles = StyleSheet.create({
   cardContent: { flexDirection: 'row', alignItems: 'center' },
   queueNumber: { fontSize: 16, fontWeight: 'bold', marginRight: 15 },
   taxiNumber: { fontSize: 14, color: 'gray', marginLeft: 10 },
+
+  burnerContainer: { marginBottom: 15, alignItems: 'center' },
+  burnerImage: { width: '100%', height: 150, borderRadius: 15 },
+  burnerText: { marginTop: 10, fontSize: 14, fontWeight: 'bold', textAlign: 'center', color: 'gray' },
+
+  routeContainer: {
+    backgroundColor: '#F8F9FA', // Soft neutral background
+    padding: 12,
+    borderRadius: 12,
+    flexDirection: 'row', 
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    marginBottom: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3, 
+  },
+  
+  routeLabel: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#333', // Darker for emphasis
+  },
+  
+  routeText: {
+    fontSize: 18,
+    fontWeight: '400',
+    color: '#555',
+    flexShrink: 1, // Ensures text wraps neatly
+    marginLeft: 5,
+  },
+  
+  
 });
 
 export default HomeScreen;
