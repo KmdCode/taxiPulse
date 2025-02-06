@@ -73,11 +73,11 @@ const ProfileScreen = () => {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, backgroundColor: '#f5f5f5' },
-  header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 },
+  header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20, marginTop:10 },
   appName: { fontSize: 24, fontWeight: 'bold' },
   driverInfo: { flexDirection: 'row', alignItems: 'center' },
   driverName: { fontSize: 16, marginRight: 10 },
-  driverImage: { width: 50, height: 50, borderRadius: 25 },
+  driverImage: { width: 40, height: 40, borderRadius: 25 },
   card: { padding: 10, backgroundColor: 'white', borderRadius: 10, elevation: 3 },
   infoRow: { flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 8, borderBottomWidth: 0.5, borderBottomColor: '#ddd' },
   label: { fontSize: 16, fontWeight: 'bold' },
