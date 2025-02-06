@@ -4,7 +4,7 @@ import { Card } from '@ant-design/react-native';
 
 const driver = {
   name: 'Karabo Modise',
-  image: 'https://picsum.photos/id/64/200/300',
+  image: 'https://picsum.photos/id/223/200/300',
   taxiNumber: 'DEF-456-GP',
   queuePosition: 1,
 };

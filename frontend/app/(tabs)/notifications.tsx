@@ -5,7 +5,7 @@ import moment from 'moment';
 
 const driver = {
   name: 'Karabo Modise',
-  image: 'https://picsum.photos/id/64/200/300',
+  image: 'https://picsum.photos/id/223/200/300',
 };
 
 const notifications = [
