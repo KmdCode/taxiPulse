@@ -74,7 +74,7 @@ const NotificationScreen = () => {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, backgroundColor: '#f5f5f5' },
-  header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20},
+  header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20, marginTop:10},
   appName: { fontSize: 24, fontWeight: 'bold' },
   driverInfo: { flexDirection: 'row', alignItems: 'center' },
   driverName: { fontSize: 16, marginRight: 10 },

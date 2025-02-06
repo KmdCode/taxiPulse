@@ -71,7 +71,7 @@ const HomeScreen = () => {
 
 const styles = StyleSheet.create({
   taxiRoute:{fontSize: 22, fontWeight: 'bold', marginBottom: 10},
-  container: { flex: 1, padding: 20, backgroundColor: '#f5f5f5' },
+  container: { flex: 1, padding: 20, backgroundColor: '#f5f5f5', marginTop:10 },
   header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 },
   appName: { fontSize: 24, fontWeight: 'bold' },
   driverInfo: { flexDirection: 'row', alignItems: 'center' },
