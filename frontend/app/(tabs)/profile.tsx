@@ -64,7 +64,7 @@ const ProfileScreen = () => {
       </Card>
 
       {/* Update Button */}
-      <Button type="primary" style={styles.updateButton}>
+      <Button type="primary" style={styles.updateButton} onPress={() => navigation.navigate('UpdateProfile')}>
         Update Profile
       </Button>
     </ScrollView>

@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   burnerText: { marginTop: 10, fontSize: 14, fontWeight: 'bold', textAlign: 'center', color: 'gray' },
 
   routeContainer: {
-    backgroundColor: '#F8F9FA', // Soft neutral background
+    backgroundColor: '#F8F9FA',
     padding: 12,
     borderRadius: 12,
     flexDirection: 'row', 
@@ -106,14 +106,14 @@ const styles = StyleSheet.create({
   routeLabel: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#333', // Darker for emphasis
+    color: '#333', 
   },
   
   routeText: {
     fontSize: 18,
     fontWeight: '400',
     color: '#555',
-    flexShrink: 1, // Ensures text wraps neatly
+    flexShrink: 1, 
     marginLeft: 5,
   },
   
